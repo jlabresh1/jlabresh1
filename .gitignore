@@ -1,0 +1,8 @@
+# Private career notes - never publish
+docs/career-package-private/
+*-private.md
+*-private.html
+
+# Local agent/editor working files
+.agents/
+.kiro/

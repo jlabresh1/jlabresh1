@@ -1,0 +1,76 @@
+<html><head><meta charset="utf-8"><title>Jeremiah LaBresh Resume</title>
+<style>
+body{font-family:Calibri,Arial,sans-serif;font-size:10.5pt;margin:0;line-height:1.15}
+h1{font-size:22pt;margin:0}
+h2{font-size:12pt;border-bottom:1px solid #444;margin:10pt 0 3pt;text-transform:uppercase}
+h3{font-size:11pt;margin:8pt 0 0}
+p{margin:2pt 0}
+ul{margin:2pt 0 2pt 0}
+li{margin:2pt 0}
+.role{margin:6pt 0 0}
+</style></head><body>
+<h1>Jeremiah LaBresh</h1>
+<p><b>Staff Software Engineer &middot; PHP/Laravel, Vue, MySQL &middot; Hands-on technical leadership &middot; AI-assisted development</b></p>
+<p>Urbandale, Iowa (Remote) | <a href="https://www.linkedin.com/in/jeremiah-labresh/">linkedin.com/in/jeremiah-labresh</a></p>
+
+<h2>Summary</h2>
+<p>I've been building for the web for 25+ years, the last 13 on ClearanceJobs at DHI Group, working mostly in PHP/Laravel, Vue, and MySQL. I've stayed hands-on by choice. I tried management briefly, but I like writing code and helping other developers grow, mostly by pairing with them. Recent work includes moving our public job board to server-side rendering, building on-demand ephemeral environments, an AI-assisted development lifecycle with Kiro, and improving how we ingest 50,000+ jobs from outside feeds.</p>
+
+<h2>Skills</h2>
+<p><b>Languages:</b> PHP, TypeScript, JavaScript, SQL, HTML, CSS</p>
+<p><b>Frameworks:</b> Laravel (Eloquent), Vue 3, Vike, Pinia, Vite, Element Plus</p>
+<p><b>APIs:</b> REST API design and versioning, queues and events</p>
+<p><b>Data and infrastructure:</b> MySQL, query optimization, dbt, Terraform, Docker, CI/CD, Git</p>
+<p><b>Testing:</b> Cypress, Vitest</p>
+<p><b>AI tools:</b> Kiro, Model Context Protocol (MCP)</p>
+
+<h2>Experience</h2>
+<h3>DHI Group, Inc. (ClearanceJobs) &mdash; Urbandale, Iowa / Remote</h3>
+<p>ClearanceJobs is a job marketplace for people with security clearances and the companies hiring them. Over 13 years I've worked across the frontend, the API, and infrastructure in about 10 repositories, with more than 7,600 commits.</p>
+
+<p class="role"><b>Staff Software Engineer</b>, Jul 2021 &ndash; Present</p>
+<ul>
+<li>Led the move of our public job board to server-side rendering, from a vite-plugin-ssr proof of concept to a production Vike migration. The hard parts were hydration bugs, CSP nonces, and cookies and CSRF on the server.</li>
+<li>Designed our team's development lifecycle, from story creation through PR review, QA, and release, as guides and automation everyone follows.</li>
+<li>Built on-demand ephemeral environments that spin up for each story branch. Engineering, QA, and product each get an isolated environment to check work before merge, so nobody is stuck waiting on a shared staging server.</li>
+<li>Built an AI-assisted SDLC on top of that process, using Kiro workflows, steering docs, and MCP integrations for feature planning, story creation, code review, and release notes.</li>
+<li>Working with AWS on a blog post about our AI-assisted SDLC and what it has done for our team.</li>
+<li>Improving our job ingestion process, which pulls 50,000+ jobs from outside job feeds into the system through automated runs twice a day. Working with the jobs team on batch ingestion that classifies each listing by clearance level, location, remote status, industry, and job type.</li>
+<li>Built a UI where customer service reps use AI to add, update, and troubleshoot the job collections they own. Some reps manage up to 500 customer accounts.</li>
+<li>Led the discussions and helped with the integration of our own feature flag system. It's simpler than a third-party tool, but it lets us release code and have product turn features on for customers from an admin page.</li>
+<li>Built a shared design system (tokens, components, and guidelines) and moved the app over to it.</li>
+<li>Moved the frontend to Vue 3, Vite, TypeScript, and Pinia, and pushed for better test coverage with Cypress and Vitest.</li>
+<li>Mentor developers, mostly by pairing with them. Several have gone from frontend engineer to staff engineer.</li>
+<li>Have interviewed engineering candidates for years. I check first that they know what the role needs, then pair with them to see how they'd work with the team.</li>
+</ul>
+
+<p class="role"><b>Lead Software Engineer</b>, Jul 2018 &ndash; Jul 2021</p>
+<ul>
+<li>Led the frontend group that built our Vue.js single-page app, and set the process and coding standards the team worked from.</li>
+<li>Led the team through site redesigns and helped make the case for the design updates to leadership.</li>
+<li>Attended weekly leadership training and mentored developers on the team.</li>
+</ul>
+
+<p class="role"><b>Senior Software Engineer</b>, Jul 2013 &ndash; Jul 2018</p>
+<ul>
+<li>Helped build the page-view and campaign system that let ClearanceJobs start selling pay-per-view job listings. It tied applications and job views together so employers could see reports down to the hour.</li>
+<li>Built the ETL process that cached those reports. To keep reporting live, we calculated each chunk of data into a working table while the main table kept serving, then moved the results over when the run finished, with careful cron timing while the system was still fragile.</li>
+<li>Ran several large MySQL updates, optimized slow queries, and taught developers how to write efficient queries, including with Laravel's Eloquent ORM.</li>
+<li>Helped bring Laravel into our stack in 2013 and started our move to Vue.js on internal projects in 2016.</li>
+<li>Led the team that built out the ClearanceJobs.com front end in 2015, managing tasks, training developers, and presenting concepts to the product team. We launched on time.</li>
+<li>Built a VoIP calling feature for the site with Twilio, Pusher, and Vue.js.</li>
+<li>Designed and built an admin interface for customer service, and served as technical project manager across a third-party team, our client-side team, and our API team.</li>
+</ul>
+
+<h3>Earlier experience</h3>
+<ul>
+<li><b>Systems Engineer</b>, Meredith Corporation, Jan 2007 &ndash; Jul 2013 (contract until Jul 2007)</li>
+<li><b>Web Developer</b>, Demonstrated Performance Inc., Oct 2006 &ndash; Jan 2007</li>
+<li><b>Web Consultant (contract)</b>, Intel Corporation, 2006</li>
+<li><b>Lead Interactive Developer</b>, Anderson Solone Inc., 2000 &ndash; 2004</li>
+<li><b>Web Developer (independent)</b>, LaBresh Media, 1999 &ndash; 2012</li>
+</ul>
+
+<h2>Education</h2>
+<p>Kaplan College Online &mdash; Information Technology</p>
+</body></html>
